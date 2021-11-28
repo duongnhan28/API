@@ -1,0 +1,63 @@
+<!--<?xml version="1.0" encoding="UTF-8" ?>-->
+<!--<!DOCTYPE tiles-definitions PUBLIC-->
+<!--        "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"-->
+<!--        "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">-->
+<!--<tiles-definitions>-->
+
+<!--    &lt;!&ndash; Base Define &ndash;&gt;-->
+<!--    <definition name="client.definition"-->
+<!--                template="/WEB-INF/jsp/Layout/Layout.jsp">-->
+<!--        <put-attribute name="header" value="/WEB-INF/jsp/Layout/header.jsp" />-->
+<!--        <put-attribute name="body" value="" />-->
+<!--        <put-attribute name="footer" value="/WEB-INF/jsp/Layout/footer.jsp" />-->
+<!--    </definition>-->
+
+<!--    &lt;!&ndash; Home Page  &ndash;&gt;-->
+<!--    <definition name="khoa" extends="client.definition">-->
+<!--        <put-attribute name="body" value="/WEB-INF/jsp/Khoa/list.jsp"/>-->
+<!--    </definition>-->
+<!--    &lt;!&ndash;Product List : client&ndash;&gt;-->
+<!--    <definition name="listProductByCategory" extends="client.definition">-->
+<!--        <put-attribute name="body" value="/WEB-INF/jsp/client/listProductByCategory.jsp"/>-->
+<!--    </definition>-->
+<!--    &lt;!&ndash;Product Detail : client&ndash;&gt;-->
+<!--    <definition name="product-detail" extends="client.definition">-->
+<!--        <put-attribute name="body" value="/WEB-INF/jsp/client/product-detail.jsp"/>-->
+<!--    </definition>-->
+<!--    &lt;!&ndash;Product List : admin&ndash;&gt;-->
+<!--    <definition name="admin/list-product" extends="admin.definition">-->
+<!--        <put-attribute name="body" value="/WEB-INF/jsp/admin/listProduct.jsp"/>-->
+<!--    </definition>-->
+<!--    &lt;!&ndash;Category List : admin&ndash;&gt;-->
+<!--    <definition name="admin/list-category" extends="admin.definition">-->
+<!--        <put-attribute name="body" value="/WEB-INF/jsp/admin/listCategory.jsp"/>-->
+<!--    </definition>-->
+<!--    &lt;!&ndash;Login Admin&ndash;&gt;-->
+<!--    <definition name="admin/login"-->
+<!--                template="/WEB-INF/jsp/admin/login.jsp">-->
+<!--    </definition>-->
+<!--    &lt;!&ndash;404 Page&ndash;&gt;-->
+<!--    <definition name="404"-->
+<!--                template="/WEB-INF/jsp/client/404.jsp">-->
+<!--    </definition>-->
+<!--    &lt;!&ndash;Add Product : admin&ndash;&gt;-->
+<!--    <definition name="admin/add-product" extends="admin.definition">-->
+<!--        <put-attribute name="body" value="/WEB-INF/jsp/admin/addProduct.jsp"/>-->
+<!--    </definition>-->
+<!--    &lt;!&ndash;Add Category : admin&ndash;&gt;-->
+<!--    <definition name="admin/add-category" extends="admin.definition">-->
+<!--        <put-attribute name="body" value="/WEB-INF/jsp/admin/addCategory.jsp"/>-->
+<!--    </definition>-->
+<!--    &lt;!&ndash;Edit Product : admin&ndash;&gt;-->
+<!--    <definition name="admin/edit-product" extends="admin.definition">-->
+<!--        <put-attribute name="body" value="/WEB-INF/jsp/admin/editProduct.jsp"/>-->
+<!--    </definition>-->
+<!--    &lt;!&ndash;Edit Category : admin&ndash;&gt;-->
+<!--    <definition name="admin/edit-category" extends="admin.definition">-->
+<!--        <put-attribute name="body" value="/WEB-INF/jsp/admin/editCategory.jsp"/>-->
+<!--    </definition>-->
+<!--    &lt;!&ndash;Cart : client&ndash;&gt;-->
+<!--    <definition name="cart" extends="client.definition">-->
+<!--        <put-attribute name="body" value="/WEB-INF/jsp/client/cart.jsp"/>-->
+<!--    </definition>-->
+<!--</tiles-definitions>-->
